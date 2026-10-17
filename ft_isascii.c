@@ -6,12 +6,12 @@
 /*   By: mahhassa <mahhassa@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/17 12:02:51 by mahhassa          #+#    #+#             */
-/*   Updated: 2026/10/17 12:08:46 by mahhassa         ###   ########.fr       */
+/*   Updated: 2026/10/17 12:44:43 by mahhassa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-int ft_isascii (int c)
+int ft_isascii(int c)
 {
 	if (c >= 0 && c <=127) 
 	{

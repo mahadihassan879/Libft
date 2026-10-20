@@ -6,12 +6,12 @@
 /*   By: mahhassa <mahhassa@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/17 13:02:17 by mahhassa          #+#    #+#             */
-/*   Updated: 2026/10/17 15:33:16 by mahhassa         ###   ########.fr       */
+/*   Updated: 2026/10/20 13:39:31 by mahhassa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 unsigned int	ft_strlcpy(char *dest, char *src, unsigned int size)
 {
-
+	
 }

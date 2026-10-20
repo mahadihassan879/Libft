@@ -27,12 +27,22 @@ int	main(void)
 // 	printf("Length of '42 Abu Dhabi': Expected: 12 | Result: %zu\n", ft_strlen("42 Abu Dhabi"));
 
 // 	return (0);
+// {
+//     // printf("A: %d\n", ft_isalnum('A'));
+//     // printf("z: %d\n", ft_isalnum('z'));
+//     // printf("5: %d\n", ft_isalnum('5'));
+//     // printf("@: %d\n", ft_isalnum('@'));
+//     // printf("Space: %d\n", ft_isalnum(' '));
+
+//     // return (0);
+// }
+
 {
-    printf("A: %d\n", ft_isalnum('A'));
-    printf("z: %d\n", ft_isalnum('z'));
-    printf("5: %d\n", ft_isalnum('5'));
-    printf("@: %d\n", ft_isalnum('@'));
-    printf("Space: %d\n", ft_isalnum(' '));
+    char c1 = 'a';
+    char c2 = 'Z';
+
+    printf("Original: %c | ft_toupper: %c\n", c1, ft_toupper(c1));
+    printf("Original: %c | ft_tolower: %c\n", c2, ft_tolower(c2));
 
     return (0);
 }

@@ -6,7 +6,7 @@
 /*   By: mahhassa <mahhassa@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/15 10:15:10 by mahhassa          #+#    #+#             */
-/*   Updated: 2026/10/24 17:40:52 by mahhassa         ###   ########.fr       */
+/*   Updated: 2026/10/24 18:45:54 by mahhassa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,6 +28,7 @@ void	ft_bzero(void *s, size_t n);
 void	ft_putchar_fd(char c, int fd);
 void	ft_putstr_fd(char *s, int fd);
 void	ft_putendl_fd(char *s, int fd);
+char	*ft_strchr(const char *s, int c);
 char	*ft_strchr(const char *s, int c);
 
 #endif

@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "libft.h"
+#include <string.h>
 
 // int	main(void)
 // {
@@ -58,15 +59,26 @@
 // 	return (0);
 // }
 
+// int	main(void)
+// {
+// 	printf("Test 1: %d\n", ft_strncmp("abc", "abc", 3));
+// 	printf("Test 2: %d\n", ft_strncmp("abc", "abd", 3));
+// 	printf("Test 3: %d\n", ft_strncmp("abd", "abc", 3));
+// 	printf("Test 4: %d\n", ft_strncmp("abc", "xyz", 0));
+// 	printf("Test 5: %d\n", ft_strncmp("abc", "abd", 2));
+// 	printf("Test 6: %d\n", ft_strncmp("ab", "abc", 3));
+// 	printf("Test 7: %d\n", ft_strncmp("", "", 5));
+// 	printf("Test 8: %d\n", ft_strncmp("hello", "world", 1));
+// 	return (0);
+// }
+
+// 
+
 int	main(void)
 {
-	printf("Test 1: %d\n", ft_strncmp("abc", "abc", 3));
-	printf("Test 2: %d\n", ft_strncmp("abc", "abd", 3));
-	printf("Test 3: %d\n", ft_strncmp("abd", "abc", 3));
-	printf("Test 4: %d\n", ft_strncmp("abc", "xyz", 0));
-	printf("Test 5: %d\n", ft_strncmp("abc", "abd", 2));
-	printf("Test 6: %d\n", ft_strncmp("ab", "abc", 3));
-	printf("Test 7: %d\n", ft_strncmp("", "", 5));
-	printf("Test 8: %d\n", ft_strncmp("hello", "world", 1));
+	printf("Test 1: %d\n", ft_memcmp("abc", "abc", 3));
+	printf("Test 2: %d\n", ft_memcmp("abc", "abd", 3));
+	printf("Test 3: %d\n", ft_memcmp("abc", "xyz", 0));
+	printf("Test 4: %d\n", ft_memcmp("hello", "heppo", 5));
 	return (0);
 }

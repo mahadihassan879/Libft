@@ -6,7 +6,7 @@
 /*   By: mahhassa <mahhassa@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/15 10:15:10 by mahhassa          #+#    #+#             */
-/*   Updated: 2026/10/27 17:53:20 by mahhassa         ###   ########.fr       */
+/*   Updated: 2026/10/28 17:08:21 by mahhassa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,5 +32,7 @@ char	*ft_strchr(const char *s, int c);
 char	*ft_strchr(const char *s, int c);
 char	*ft_strrchr(char* str, int chr);
 int 	ft_strncmp(const char *s1, const char *s2, size_t n);
+void	*ft_memchr(const void *s, int c, size_t n);
+int	ft_memcmp(const void *s1, const void *s2, size_t n);
 
 #endif

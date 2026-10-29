@@ -6,13 +6,13 @@
 /*   By: mahhassa <mahhassa@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/24 15:28:52 by mahhassa          #+#    #+#             */
-/*   Updated: 2026/10/24 16:04:58 by mahhassa         ###   ########.fr       */
+/*   Updated: 2026/10/29 10:16:41 by mahhassa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	*ft_memset (void *b, int c, size_t len)
+void	*ft_memset(void *b, int c, size_t len)
 {
 	size_t i;
 	unsigned char *ptr;

@@ -6,7 +6,7 @@
 /*   By: mahhassa <mahhassa@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/15 10:15:10 by mahhassa          #+#    #+#             */
-/*   Updated: 2026/10/31 12:11:26 by mahhassa         ###   ########.fr       */
+/*   Updated: 2026/10/31 12:56:02 by mahhassa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,5 +38,6 @@ int	ft_atoi(const char *nptr);
 char	*ft_strdup(const char *s);
 void	*ft_calloc(size_t nmemb, size_t size);
 void	*ft_memmove(void *dest, const void *src, size_t n);
+size_t	ft_strlcat(char *dst, const char *src, size_t size);
 
 #endif

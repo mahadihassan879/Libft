@@ -74,11 +74,40 @@
 
 // 
 
-int	main(void)
-{
-	printf("Test 1: %d\n", ft_memcmp("abc", "abc", 3));
-	printf("Test 2: %d\n", ft_memcmp("abc", "abd", 3));
-	printf("Test 3: %d\n", ft_memcmp("abc", "xyz", 0));
-	printf("Test 4: %d\n", ft_memcmp("hello", "heppo", 5));
-	return (0);
-}
+// int	main(void)
+// {
+// 	printf("Test 1: %d\n", ft_memcmp("abc", "abc", 3));
+// 	printf("Test 2: %d\n", ft_memcmp("abc", "abd", 3));
+// 	printf("Test 3: %d\n", ft_memcmp("abc", "xyz", 0));
+// 	printf("Test 4: %d\n", ft_memcmp("hello", "heppo", 5));
+// 	return (0);
+// }
+
+// int	main(void)
+// {
+// 	const char	*tests[] = {
+// 		"123",
+// 		"-123",
+// 		"+123",
+// 		"   42",
+// 		"  -42",
+// 		"42abc",
+// 		"abc42",
+// 		"",
+// 		"\t\n  789",
+// 		NULL
+// 	};
+// 	int			i;
+
+// 	i = 0;
+// 	while (tests[i] != NULL)
+// 	{
+// 		printf("Input: [%s]\n", tests[i]);
+// 		printf("ft_atoi: %d\n", ft_atoi(tests[i]));
+// 		printf("atoi:    %d\n", ft_atoi(tests[i]));
+// 		printf("--------------------\n");
+// 		i++;
+// 	}
+// 	return (0);
+// }
+

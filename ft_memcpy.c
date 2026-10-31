@@ -6,10 +6,10 @@
 /*   By: mahhassa <mahhassa@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/29 10:16:52 by mahhassa          #+#    #+#             */
-/*   Updated: 2026/10/29 10:18:15 by mahhassa         ###   ########.fr       */
+/*   Updated: 2026/10/31 12:03:08 by mahhassa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void *ft_memcpy(void *)
+void *ft_memcpy(void *)zv

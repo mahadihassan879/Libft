@@ -6,17 +6,17 @@
 /*   By: mahhassa <mahhassa@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/17 12:13:24 by mahhassa          #+#    #+#             */
-/*   Updated: 2026/10/17 12:43:41 by mahhassa         ###   ########.fr       */
+/*   Updated: 2026/11/03 19:10:30 by mahhassa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-int	ft_isprint(char c)
+
+int	ft_isprint(int c)
 {
-	if (c >= 0 && c <=127)
+	if (c >= 32 && c <= 126)
 	{
-		return(1);
+		return (1);
 	}
-	else
-		return(0);
+	return (0);
 }

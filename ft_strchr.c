@@ -6,19 +6,22 @@
 /*   By: mahhassa <mahhassa@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/24 17:39:42 by mahhassa          #+#    #+#             */
-/*   Updated: 2026/10/24 18:45:59 by mahhassa         ###   ########.fr       */
+/*   Updated: 2026/11/03 19:18:53 by mahhassa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*ft_strchr(const char *s, int c)
+char	*ft_strrchr(const char *s, int c)
 {
+	char	*last;
+
+	last = NULL;
 	while (*s != '\0')
 	{
 		if (*s == (char)c)
 		{
-			return ((char *)s);
+			last = (char *)s;
 		}
 		s++;
 	}
@@ -26,5 +29,5 @@ char	*ft_strchr(const char *s, int c)
 	{
 		return ((char *)s);
 	}
-	return (NULL);
+	return (last);
 }

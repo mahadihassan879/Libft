@@ -6,17 +6,17 @@
 /*   By: mahhassa <mahhassa@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/15 12:43:55 by mahhassa          #+#    #+#             */
-/*   Updated: 2026/10/15 13:08:55 by mahhassa         ###   ########.fr       */
+/*   Updated: 2026/11/03 19:10:16 by mahhassa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-int	ft_isdigit(int d)
+
+int	ft_isdigit(int c)
 {
-	if (d >= '0' && d <= '0') 
+	if (c >= '0' && c <= '9') 
 	{
-		return(1);
+		return (1);
 	}
-	return(0);
-	
+	return (0);
 }

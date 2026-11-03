@@ -6,16 +6,17 @@
 /*   By: mahhassa <mahhassa@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/20 13:39:59 by mahhassa          #+#    #+#             */
-/*   Updated: 2026/10/20 13:41:02 by mahhassa         ###   ########.fr       */
+/*   Updated: 2026/11/03 19:12:00 by mahhassa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-int	ft_tolower(char c)
+
+int	ft_tolower(int c)
 {
 	if (c >= 'A' && c <= 'Z')
 	{
 		return (c + 32);
 	}
-	return(c);
+	return (c);
 }

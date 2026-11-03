@@ -6,7 +6,7 @@
 /*   By: mahhassa <mahhassa@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/01 13:05:48 by mahhassa          #+#    #+#             */
-/*   Updated: 2026/11/01 13:05:48 by mahhassa         ###   ########.fr       */
+/*   Updated: 2026/11/03 19:31:39 by mahhassa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,7 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	if (!result)
 		return (NULL);
 	i = 0;
-	while (i < len)ft_substr.c
+	while (i < len)
 	{
 		result[i] = s[start + i];
 		i++;

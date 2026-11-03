@@ -6,16 +6,17 @@
 /*   By: mahhassa <mahhassa@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/20 13:33:35 by mahhassa          #+#    #+#             */
-/*   Updated: 2026/10/20 13:40:56 by mahhassa         ###   ########.fr       */
+/*   Updated: 2026/11/03 19:12:10 by mahhassa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-int	ft_toupper(char c)
+
+int	ft_toupper(int c)
 {
 	if (c >= 'a' && c <= 'z')
 	{
 		return (c - 32);
 	}
-	return(c);
+	return (c);
 }
